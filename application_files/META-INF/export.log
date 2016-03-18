@@ -1,0 +1,401 @@
+Success (6):
+content 59245 _a-0000dbc1-90d8-8000-9ba2-011c48011c48_64064 "Support"
+processModelFolder 36 _g-0000db75-2e36-8000-f92f-7f0000014e7a_44 "Support"
+processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a "Create MACPRO Appian User"
+processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a "User Deactivation Process"
+processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a "User Creation Process"
+processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a "Create Group Id Insersion Script"
+
+Referenced precedents that were not exported (7):
+datatype 3376 {urn:com:appian:types:MAC}MAC_UM_ACTV_USER_ROLES
+datatype 3296 {urn:com:appian:types:MAC}MAC_UM_USER_ROLE
+user iaich iaich
+user hari.rusum hari.rusum
+group 46 _e-0000da9f-8bd6-8000-9aee-01075c01075c_30
+content 4410 _a-0000da9f-8beb-8000-9ba2-011c48011c48_4762
+processModelFolder 12 _g-0000da9f-8be7-8000-f92f-7f0000014e7a_9
+
+Trace:
+2015-10-29 15:05:35.975 DEBUG content 59245 _a-0000dbc1-90d8-8000-9ba2-011c48011c48_64064 Begin transport.
+2015-10-29 15:05:35.975 DEBUG content 59245 _a-0000dbc1-90d8-8000-9ba2-011c48011c48_64064 Retrieving object data.
+2015-10-29 15:05:35.981 DEBUG content 59245 _a-0000dbc1-90d8-8000-9ba2-011c48011c48_64064 Setting uuids of object references.
+2015-10-29 15:05:35.981 DEBUG content 59245 _a-0000dbc1-90d8-8000-9ba2-011c48011c48_64064 Processing reference: KnowledgeFolder.forum
+2015-10-29 15:05:35.982 DEBUG content 59245 _a-0000dbc1-90d8-8000-9ba2-011c48011c48_64064 Processing reference: KnowledgeFolder.parent
+2015-10-29 15:05:35.983 DEBUG content 59245 _a-0000dbc1-90d8-8000-9ba2-011c48011c48_64064 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@213cc64e[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,usernames=[iaich],inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=143:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=true,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2015-10-29 15:05:35.983 DEBUG content 59245 _a-0000dbc1-90d8-8000-9ba2-011c48011c48_64064 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2015-10-29 15:05:35.983 DEBUG content 59245 _a-0000dbc1-90d8-8000-9ba2-011c48011c48_64064 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2015-10-29 15:05:35.983 DEBUG content 59245 _a-0000dbc1-90d8-8000-9ba2-011c48011c48_64064 Processing reference: ContentRole[name=administrators,usernames=[iaich],inherit=true,allowForAll=false]
+2015-10-29 15:05:35.984 DEBUG content 59245 _a-0000dbc1-90d8-8000-9ba2-011c48011c48_64064 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2015-10-29 15:05:35.984 DEBUG content 59245 _a-0000dbc1-90d8-8000-9ba2-011c48011c48_64064 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2015-10-29 15:05:35.984 DEBUG content 59245 _a-0000dbc1-90d8-8000-9ba2-011c48011c48_64064 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2015-10-29 15:05:35.984 DEBUG content 59245 _a-0000dbc1-90d8-8000-9ba2-011c48011c48_64064 Exporting binary resources.
+2015-10-29 15:05:35.984 DEBUG content 59245 _a-0000dbc1-90d8-8000-9ba2-011c48011c48_64064 Serializing object to XML.
+2015-10-29 15:05:35.985 DEBUG content 59245 _a-0000dbc1-90d8-8000-9ba2-011c48011c48_64064 Object transported.
+2015-10-29 15:05:35.986 DEBUG processModelFolder 36 _g-0000db75-2e36-8000-f92f-7f0000014e7a_44 Begin transport.
+2015-10-29 15:05:35.986 DEBUG processModelFolder 36 _g-0000db75-2e36-8000-f92f-7f0000014e7a_44 Retrieving object data.
+2015-10-29 15:05:35.99 DEBUG processModelFolder 36 _g-0000db75-2e36-8000-f92f-7f0000014e7a_44 Setting uuids of object references.
+2015-10-29 15:05:35.99 DEBUG processModelFolder 36 _g-0000db75-2e36-8000-f92f-7f0000014e7a_44 Processing reference: ProcessModelFolder.parentFolderId
+2015-10-29 15:05:35.993 DEBUG processModelFolder 36 _g-0000db75-2e36-8000-f92f-7f0000014e7a_44 Processing reference: com.appiancorp.suiteapi.process.ProcessRoleMap@3e54dcbb[
+  Role[name=ADMIN_OWNER,usernames=[hari.rusum]]
+  Role[name=EDITOR]
+  Role[name=EXPLICIT_NONMEMBER]
+  Role[name=VIEWER]
+  Role[name=MANAGER]
+  Role[name=INITIATOR]
+]
+2015-10-29 15:05:35.993 DEBUG processModelFolder 36 _g-0000db75-2e36-8000-f92f-7f0000014e7a_44 Processing reference: Role[name=ADMIN_OWNER,usernames=[hari.rusum]]
+2015-10-29 15:05:35.994 DEBUG processModelFolder 36 _g-0000db75-2e36-8000-f92f-7f0000014e7a_44 Processing reference: Role[name=EDITOR]
+2015-10-29 15:05:35.994 DEBUG processModelFolder 36 _g-0000db75-2e36-8000-f92f-7f0000014e7a_44 Processing reference: Role[name=EXPLICIT_NONMEMBER]
+2015-10-29 15:05:35.994 DEBUG processModelFolder 36 _g-0000db75-2e36-8000-f92f-7f0000014e7a_44 Processing reference: Role[name=VIEWER]
+2015-10-29 15:05:35.994 DEBUG processModelFolder 36 _g-0000db75-2e36-8000-f92f-7f0000014e7a_44 Processing reference: Role[name=MANAGER]
+2015-10-29 15:05:35.994 DEBUG processModelFolder 36 _g-0000db75-2e36-8000-f92f-7f0000014e7a_44 Processing reference: Role[name=INITIATOR]
+2015-10-29 15:05:35.994 DEBUG processModelFolder 36 _g-0000db75-2e36-8000-f92f-7f0000014e7a_44 Exporting binary resources.
+2015-10-29 15:05:35.994 DEBUG processModelFolder 36 _g-0000db75-2e36-8000-f92f-7f0000014e7a_44 Serializing object to XML.
+2015-10-29 15:05:35.994 DEBUG processModelFolder 36 _g-0000db75-2e36-8000-f92f-7f0000014e7a_44 Object transported.
+2015-10-29 15:05:35.995 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Begin transport.
+2015-10-29 15:05:35.995 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Retrieving object data.
+2015-10-29 15:05:36.107 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Setting uuids of object references.
+2015-10-29 15:05:36.107 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ProcessModelHaul.folderId
+2015-10-29 15:05:36.109 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ProcessModelHaul.modelDashboardPageId
+2015-10-29 15:05:36.109 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ProcessModelHaul.processDashboardPageId
+2015-10-29 15:05:36.11 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ProcessModel.emailAttachmentFolderId
+2015-10-29 15:05:36.112 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question1]
+2015-10-29 15:05:36.112 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question2]
+2015-10-29 15:05:36.112 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question3]
+2015-10-29 15:05:36.112 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question4]
+2015-10-29 15:05:36.112 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question5]
+2015-10-29 15:05:36.112 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question6]
+2015-10-29 15:05:36.112 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question7]
+2015-10-29 15:05:36.112 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question8]
+2015-10-29 15:05:36.112 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question9]
+2015-10-29 15:05:36.112 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question10]
+2015-10-29 15:05:36.112 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question11]
+2015-10-29 15:05:36.112 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: InternalForm.docId
+2015-10-29 15:05:36.113 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=pmID,it=23,v=<null>]
+2015-10-29 15:05:36.115 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=inMap,it=111,v={}]
+2015-10-29 15:05:36.115 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=procInheritsPriority,it=1,v=1]
+2015-10-29 15:05:36.115 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=pmUUID,it=3,v=]
+2015-10-29 15:05:36.115 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=isAsynchronous,it=26,v=1]
+2015-10-29 15:05:36.115 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=isTransparent,it=26,v=1]
+2015-10-29 15:05:36.115 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=inheritSecurity,it=26,v=0]
+2015-10-29 15:05:36.115 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=defaultNode,it=1,v=2]
+2015-10-29 15:05:36.115 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=rules,it=111,v={ActivityClassParameter[name=rule,it=11,v={ActivityClassParameter[name=expression,it=26,v=<null>],ActivityClassParameter[name=node,it=1,v=1],ActivityClassParameter[name=label,it=3,v=]}]}]
+2015-10-29 15:05:36.116 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=fired,it=1,v=0]
+2015-10-29 15:05:36.116 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=arrivedNodes,it=101,v=<null>]
+2015-10-29 15:05:36.116 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Add User]
+2015-10-29 15:05:36.116 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Username]
+2015-10-29 15:05:36.116 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=First Name]
+2015-10-29 15:05:36.116 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Nickname]
+2015-10-29 15:05:36.116 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Middle Name]
+2015-10-29 15:05:36.116 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Last Name]
+2015-10-29 15:05:36.116 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Email address]
+2015-10-29 15:05:36.116 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=UserName,it=3,v=]
+2015-10-29 15:05:36.116 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=FirstName,it=3,v=]
+2015-10-29 15:05:36.116 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=NickName,it=3,v=]
+2015-10-29 15:05:36.116 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=MiddleName,it=3,v=]
+2015-10-29 15:05:36.116 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=LastName,it=3,v=]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=Email,it=3,v=]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=NewUsername,it=4,v=]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Update User Profile]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=User]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Set to True to overwrite all fields with specified values or null if no value is specified]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=SSN]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=First Name]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Middle Name]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Last Name]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=E-mail]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Office Phone]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Mobile Phone]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Home Phone]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Address 1]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Address 2]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Address 3]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=City]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=State]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Zip code]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Country]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Supervisor]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Title]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=UserName,it=4,v=]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=OverwriteFields,it=26,v=0]
+2015-10-29 15:05:36.117 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=SocialSecurityNumber,it=3,v=]
+2015-10-29 15:05:36.118 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=FirstName,it=3,v=]
+2015-10-29 15:05:36.118 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=MiddleName,it=3,v=]
+2015-10-29 15:05:36.118 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=LastName,it=3,v=]
+2015-10-29 15:05:36.118 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=Email,it=3,v=]
+2015-10-29 15:05:36.118 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=OfficePhone,it=3,v=]
+2015-10-29 15:05:36.118 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=MobilePhone,it=3,v=]
+2015-10-29 15:05:36.118 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=HomePhone,it=3,v=]
+2015-10-29 15:05:36.118 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=Address1,it=3,v=]
+2015-10-29 15:05:36.118 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=Address2,it=3,v=]
+2015-10-29 15:05:36.118 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=Address3,it=3,v=]
+2015-10-29 15:05:36.118 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=City,it=3,v=]
+2015-10-29 15:05:36.119 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=State,it=3,v=]
+2015-10-29 15:05:36.119 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=ZipCode,it=3,v=]
+2015-10-29 15:05:36.119 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=Country,it=3,v=]
+2015-10-29 15:05:36.119 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=Supervisor,it=4,v=]
+2015-10-29 15:05:36.119 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=Title,it=1,v=<null>]
+2015-10-29 15:05:36.119 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=defaultNode,it=1,v=9]
+2015-10-29 15:05:36.119 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=rules,it=111,v={ActivityClassParameter[name=rule,it=11,v={ActivityClassParameter[name=expression,it=26,v=<null>],ActivityClassParameter[name=node,it=1,v=1],ActivityClassParameter[name=label,it=3,v=]}]}]
+2015-10-29 15:05:36.119 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=fired,it=1,v=0]
+2015-10-29 15:05:36.12 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=arrivedNodes,it=101,v=<null>]
+2015-10-29 15:05:36.12 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Add Group Members]
+2015-10-29 15:05:36.12 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Members]
+2015-10-29 15:05:36.12 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Group]
+2015-10-29 15:05:36.12 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=UsersAndGroups,it=127,v=<null>]
+2015-10-29 15:05:36.12 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=Group,it=5,v=<null>]
+2015-10-29 15:05:36.12 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=activeUserRoleEntity,it=3376,v=<null>]
+2015-10-29 15:05:36.12 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=createdUser,it=4,v=]
+2015-10-29 15:05:36.12 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=groupId,it=1,v=0]
+2015-10-29 15:05:36.12 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=groupName,it=3,v=]
+2015-10-29 15:05:36.12 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=password,it=3,v=]
+2015-10-29 15:05:36.12 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=roleId,it=1,v=0]
+2015-10-29 15:05:36.121 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=roleName,it=3,v=]
+2015-10-29 15:05:36.121 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=state,it=3,v=]
+2015-10-29 15:05:36.121 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=userEmailId,it=3,v=]
+2015-10-29 15:05:36.121 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=userFirstName,it=3,v=]
+2015-10-29 15:05:36.121 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=userLastName,it=3,v=]
+2015-10-29 15:05:36.121 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=userName,it=3,v=]
+2015-10-29 15:05:36.121 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=userRoleEntity,it=3296,v=<null>]
+2015-10-29 15:05:36.121 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=userType,it=3,v=]
+2015-10-29 15:05:36.121 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: com.appiancorp.suiteapi.process.ProcessRoleMap@6d122335[
+  Role[name=ADMIN_OWNER,usernames=[iaich],groupIds=[46]]
+  Role[name=EDITOR]
+  Role[name=EXPLICIT_NONMEMBER]
+  Role[name=VIEWER]
+  Role[name=MANAGER]
+  Role[name=INITIATOR]
+]
+2015-10-29 15:05:36.121 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: Role[name=ADMIN_OWNER,usernames=[iaich],groupIds=[46]]
+2015-10-29 15:05:36.123 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: Role[name=EDITOR]
+2015-10-29 15:05:36.123 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: Role[name=EXPLICIT_NONMEMBER]
+2015-10-29 15:05:36.123 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: Role[name=VIEWER]
+2015-10-29 15:05:36.123 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: Role[name=MANAGER]
+2015-10-29 15:05:36.124 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Processing reference: Role[name=INITIATOR]
+2015-10-29 15:05:36.124 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Exporting binary resources.
+2015-10-29 15:05:36.124 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Serializing object to XML.
+2015-10-29 15:05:36.144 DEBUG processModel 7986 0008dbda-ba8b-8000-f92f-7f0000014e7a Object transported.
+2015-10-29 15:05:36.144 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Begin transport.
+2015-10-29 15:05:36.144 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Retrieving object data.
+2015-10-29 15:05:36.194 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Setting uuids of object references.
+2015-10-29 15:05:36.194 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ProcessModelHaul.folderId
+2015-10-29 15:05:36.195 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ProcessModelHaul.modelDashboardPageId
+2015-10-29 15:05:36.195 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ProcessModelHaul.processDashboardPageId
+2015-10-29 15:05:36.195 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ProcessModel.emailAttachmentFolderId
+2015-10-29 15:05:36.197 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: InternalForm.docId
+2015-10-29 15:05:36.198 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=pmID,it=23,v=<null>]
+2015-10-29 15:05:36.198 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=inMap,it=111,v={}]
+2015-10-29 15:05:36.198 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=procInheritsPriority,it=1,v=1]
+2015-10-29 15:05:36.198 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=pmUUID,it=3,v=]
+2015-10-29 15:05:36.198 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=isAsynchronous,it=26,v=1]
+2015-10-29 15:05:36.198 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=isTransparent,it=26,v=1]
+2015-10-29 15:05:36.198 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=inheritSecurity,it=26,v=0]
+2015-10-29 15:05:36.198 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Deactivate User]
+2015-10-29 15:05:36.198 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: FormElement[label=User to Deactivate]
+2015-10-29 15:05:36.198 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=User,it=4,v=]
+2015-10-29 15:05:36.199 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~rdbms.datasource,it=3,v=jdbc/macproa]
+2015-10-29 15:05:36.199 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~rdbms.driver,it=3,v=Oracle]
+2015-10-29 15:05:36.199 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~rdbms.driverClass,it=3,v=oracle.jdbc.OracleDriver]
+2015-10-29 15:05:36.199 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~rdbms.url,it=3,v=jdbc:oracle:thin:@]
+2015-10-29 15:05:36.199 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~rdbms.urlSuffix,it=3,v=]
+2015-10-29 15:05:36.199 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~rdbms.prompt,it=26,v=0]
+2015-10-29 15:05:36.199 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~rdbms.username,it=3,v=]
+2015-10-29 15:05:36.199 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~rdbms.pwd,it=32,v=]
+2015-10-29 15:05:36.199 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~query.0.1,it=3,v=select distinct(USER_NAME) from MCP_UM_ACTV_USER_ROLES where user_name like 'Test%']
+2015-10-29 15:05:36.199 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: InternalForm.docId
+2015-10-29 15:05:36.2 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=OverrideUrl,it=3,v=]
+2015-10-29 15:05:36.2 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=OverrideUsername,it=3,v=]
+2015-10-29 15:05:36.2 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=OverridePassword,it=3,v=]
+2015-10-29 15:05:36.2 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=OverrideDatasource,it=3,v=]
+2015-10-29 15:05:36.2 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=PauseOnError,it=26,v=1]
+2015-10-29 15:05:36.2 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=jdbc_error_flag,it=26,v=0]
+2015-10-29 15:05:36.2 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=jdbc_error_string,it=3,v=]
+2015-10-29 15:05:36.2 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~1<USER_NAME,it=103,v=<null>]
+2015-10-29 15:05:36.2 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=deactivatedUserList,it=104,v={}]
+2015-10-29 15:05:36.201 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=nameList,it=3,v=]
+2015-10-29 15:05:36.201 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=userList,it=104,v={}]
+2015-10-29 15:05:36.201 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=userNames,it=103,v={}]
+2015-10-29 15:05:36.201 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: com.appiancorp.suiteapi.process.ProcessRoleMap@75992022[
+  Role[name=ADMIN_OWNER,usernames=[iaich],groupIds=[46]]
+  Role[name=EDITOR]
+  Role[name=EXPLICIT_NONMEMBER]
+  Role[name=VIEWER]
+  Role[name=MANAGER]
+  Role[name=INITIATOR]
+]
+2015-10-29 15:05:36.201 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: Role[name=ADMIN_OWNER,usernames=[iaich],groupIds=[46]]
+2015-10-29 15:05:36.203 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: Role[name=EDITOR]
+2015-10-29 15:05:36.203 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: Role[name=EXPLICIT_NONMEMBER]
+2015-10-29 15:05:36.203 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: Role[name=VIEWER]
+2015-10-29 15:05:36.203 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: Role[name=MANAGER]
+2015-10-29 15:05:36.203 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Processing reference: Role[name=INITIATOR]
+2015-10-29 15:05:36.203 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Exporting binary resources.
+2015-10-29 15:05:36.203 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Serializing object to XML.
+2015-10-29 15:05:36.213 DEBUG processModel 8067 0005dbdb-8eed-8000-f92f-7f0000014e7a Object transported.
+2015-10-29 15:05:36.213 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Begin transport.
+2015-10-29 15:05:36.213 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Retrieving object data.
+2015-10-29 15:05:36.271 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Setting uuids of object references.
+2015-10-29 15:05:36.271 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ProcessModelHaul.folderId
+2015-10-29 15:05:36.272 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ProcessModelHaul.modelDashboardPageId
+2015-10-29 15:05:36.272 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ProcessModelHaul.processDashboardPageId
+2015-10-29 15:05:36.272 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ProcessModel.emailAttachmentFolderId
+2015-10-29 15:05:36.275 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=User Creation Request CSV]
+2015-10-29 15:05:36.277 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=MACPRO User Creation]
+2015-10-29 15:05:36.277 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Label]
+2015-10-29 15:05:36.277 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=]
+2015-10-29 15:05:36.277 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: InternalForm.docId
+2015-10-29 15:05:36.277 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: UiExpressionForm.expression
+2015-10-29 15:05:36.277 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=pmID,it=23,v=<null>]
+2015-10-29 15:05:36.277 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=inMap,it=111,v={}]
+2015-10-29 15:05:36.277 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=procInheritsPriority,it=1,v=1]
+2015-10-29 15:05:36.277 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=pmUUID,it=3,v=]
+2015-10-29 15:05:36.278 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=isAsynchronous,it=26,v=1]
+2015-10-29 15:05:36.278 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=isTransparent,it=26,v=1]
+2015-10-29 15:05:36.278 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=inheritSecurity,it=26,v=0]
+2015-10-29 15:05:36.278 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question1]
+2015-10-29 15:05:36.278 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question2]
+2015-10-29 15:05:36.278 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question3]
+2015-10-29 15:05:36.278 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question4]
+2015-10-29 15:05:36.278 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question5]
+2015-10-29 15:05:36.278 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question6]
+2015-10-29 15:05:36.278 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question7]
+2015-10-29 15:05:36.278 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question8]
+2015-10-29 15:05:36.278 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question9]
+2015-10-29 15:05:36.278 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question10]
+2015-10-29 15:05:36.278 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question11]
+2015-10-29 15:05:36.278 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: InternalForm.docId
+2015-10-29 15:05:36.278 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=Instructions,it=3,v=]
+2015-10-29 15:05:36.279 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=pmID,it=23,v=7986]
+2015-10-29 15:05:36.28 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=inMap,it=111,v={ActivityClassParameter[name=oneInputMap,it=11,v={ActivityClassParameter[name=sppn,it=3,v=groupId],ActivityClassParameter[name=sppv,it=1,v=<null>]}],ActivityClassParameter[name=oneInputMap,it=11,v={ActivityClassParameter[name=sppn,it=3,v=password],ActivityClassParameter[name=sppv,it=3,v=]}],ActivityClassParameter[name=oneInputMap,it=11,v={ActivityClassParameter[name=sppn,it=3,v=roleId],ActivityClassParameter[name=sppv,it=1,v=<null>]}],ActivityClassParameter[name=oneInputMap,it=11,v={ActivityClassParameter[name=sppn,it=3,v=roleName],ActivityClassParameter[name=sppv,it=3,v=]}],ActivityClassParameter[name=oneInputMap,it=11,v={ActivityClassParameter[name=sppn,it=3,v=state],ActivityClassParameter[name=sppv,it=3,v=]}],ActivityClassParameter[name=oneInputMap,it=11,v={ActivityClassParameter[name=sppn,it=3,v=userEmailId],ActivityClassParameter[name=sppv,it=3,v=]}],ActivityClassParameter[name=oneInputMap,it=11,v={ActivityClassParameter[name=sppn,it=3,v=userFirstName],ActivityClassParameter[name=sppv,it=3,v=]}],ActivityClassParameter[name=oneInputMap,it=11,v={ActivityClassParameter[name=sppn,it=3,v=userLastName],ActivityClassParameter[name=sppv,it=3,v=]}],ActivityClassParameter[name=oneInputMap,it=11,v={ActivityClassParameter[name=sppn,it=3,v=userName],ActivityClassParameter[name=sppv,it=3,v=]}],ActivityClassParameter[name=oneInputMap,it=11,v={ActivityClassParameter[name=sppn,it=3,v=userType],ActivityClassParameter[name=sppv,it=3,v=]}],ActivityClassParameter[name=oneInputMap,it=11,v={ActivityClassParameter[name=sppn,it=3,v=groupName],ActivityClassParameter[name=sppv,it=3,v=]}]}]
+2015-10-29 15:05:36.281 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=outMap,it=111,v={}]
+2015-10-29 15:05:36.281 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=subProcessID,it=1,v=<null>]
+2015-10-29 15:05:36.281 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=procInheritsPriority,it=1,v=1]
+2015-10-29 15:05:36.282 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=pmUUID,it=3,v=0008dbda-ba8b-8000-f92f-7f0000014e7a]
+2015-10-29 15:05:36.282 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=isAsynchronous,it=26,v=0]
+2015-10-29 15:05:36.282 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=isTransparent,it=26,v=1]
+2015-10-29 15:05:36.282 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=inheritSecurity,it=26,v=0]
+2015-10-29 15:05:36.282 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=chainsInto,it=26,v=0]
+2015-10-29 15:05:36.282 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=col1,it=103,v=<null>]
+2015-10-29 15:05:36.282 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=col2,it=103,v=<null>]
+2015-10-29 15:05:36.282 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=col3,it=103,v=<null>]
+2015-10-29 15:05:36.282 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=col4,it=103,v=<null>]
+2015-10-29 15:05:36.282 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=col5,it=103,v=<null>]
+2015-10-29 15:05:36.282 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=col6,it=103,v=<null>]
+2015-10-29 15:05:36.283 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=col7,it=103,v=<null>]
+2015-10-29 15:05:36.283 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=col8,it=103,v=<null>]
+2015-10-29 15:05:36.283 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=col9,it=103,v=<null>]
+2015-10-29 15:05:36.283 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=col10,it=103,v=<null>]
+2015-10-29 15:05:36.283 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question1]
+2015-10-29 15:05:36.283 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question2]
+2015-10-29 15:05:36.283 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question3]
+2015-10-29 15:05:36.283 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question4]
+2015-10-29 15:05:36.283 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question5]
+2015-10-29 15:05:36.283 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question6]
+2015-10-29 15:05:36.283 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question8]
+2015-10-29 15:05:36.283 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question9]
+2015-10-29 15:05:36.283 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question10]
+2015-10-29 15:05:36.283 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: FormElement[label=Question10]
+2015-10-29 15:05:36.283 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: InternalForm.docId
+2015-10-29 15:05:36.284 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=CSV_Document,it=13,v=<null>]
+2015-10-29 15:05:36.284 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=Contains_Header_Row,it=26,v=1]
+2015-10-29 15:05:36.284 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=Delimiter,it=3,v=]
+2015-10-29 15:05:36.284 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=Error_Message,it=3,v=]
+2015-10-29 15:05:36.284 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=Expected_Header_Row,it=103,v=<null>]
+2015-10-29 15:05:36.284 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=Success,it=26,v=<null>]
+2015-10-29 15:05:36.284 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=emailId,it=103,v={}]
+2015-10-29 15:05:36.284 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=firstNames,it=103,v={}]
+2015-10-29 15:05:36.284 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=groupIds,it=102,v={}]
+2015-10-29 15:05:36.285 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=groupNames,it=103,v={}]
+2015-10-29 15:05:36.285 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=lastNames,it=103,v={}]
+2015-10-29 15:05:36.285 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=passwords,it=103,v={}]
+2015-10-29 15:05:36.285 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=roleIds,it=101,v={}]
+2015-10-29 15:05:36.285 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=roleName,it=103,v={}]
+2015-10-29 15:05:36.285 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=stateCode,it=103,v={}]
+2015-10-29 15:05:36.285 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=userName,it=103,v={}]
+2015-10-29 15:05:36.286 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=userRequestCSV,it=13,v=<null>]
+2015-10-29 15:05:36.286 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=userTypes,it=103,v={}]
+2015-10-29 15:05:36.286 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: com.appiancorp.suiteapi.process.ProcessRoleMap@533706cb[
+  Role[name=ADMIN_OWNER,usernames=[iaich]]
+  Role[name=EDITOR]
+  Role[name=EXPLICIT_NONMEMBER]
+  Role[name=VIEWER,groupIds=[46]]
+  Role[name=MANAGER]
+  Role[name=INITIATOR]
+]
+2015-10-29 15:05:36.286 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: Role[name=ADMIN_OWNER,usernames=[iaich]]
+2015-10-29 15:05:36.287 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: Role[name=EDITOR]
+2015-10-29 15:05:36.287 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: Role[name=EXPLICIT_NONMEMBER]
+2015-10-29 15:05:36.287 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: Role[name=VIEWER,groupIds=[46]]
+2015-10-29 15:05:36.288 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: Role[name=MANAGER]
+2015-10-29 15:05:36.288 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Processing reference: Role[name=INITIATOR]
+2015-10-29 15:05:36.288 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Exporting binary resources.
+2015-10-29 15:05:36.288 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Serializing object to XML.
+2015-10-29 15:05:36.309 DEBUG processModel 8077 0004dbdb-9330-8000-f92f-7f0000014e7a Object transported.
+2015-10-29 15:05:36.309 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Begin transport.
+2015-10-29 15:05:36.309 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Retrieving object data.
+2015-10-29 15:05:36.335 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Setting uuids of object references.
+2015-10-29 15:05:36.335 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ProcessModelHaul.folderId
+2015-10-29 15:05:36.336 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ProcessModelHaul.modelDashboardPageId
+2015-10-29 15:05:36.336 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ProcessModelHaul.processDashboardPageId
+2015-10-29 15:05:36.336 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ProcessModel.emailAttachmentFolderId
+2015-10-29 15:05:36.339 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: InternalForm.docId
+2015-10-29 15:05:36.339 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=pmID,it=23,v=<null>]
+2015-10-29 15:05:36.339 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=inMap,it=111,v={}]
+2015-10-29 15:05:36.339 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=procInheritsPriority,it=1,v=1]
+2015-10-29 15:05:36.339 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=pmUUID,it=3,v=]
+2015-10-29 15:05:36.339 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=isAsynchronous,it=26,v=1]
+2015-10-29 15:05:36.34 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=isTransparent,it=26,v=1]
+2015-10-29 15:05:36.34 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=inheritSecurity,it=26,v=0]
+2015-10-29 15:05:36.34 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~rdbms.datasource,it=3,v=jdbc/macproa]
+2015-10-29 15:05:36.34 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~rdbms.driver,it=3,v=Oracle]
+2015-10-29 15:05:36.34 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~rdbms.driverClass,it=3,v=oracle.jdbc.OracleDriver]
+2015-10-29 15:05:36.34 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~rdbms.url,it=3,v=jdbc:oracle:thin:@]
+2015-10-29 15:05:36.34 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~rdbms.urlSuffix,it=3,v=]
+2015-10-29 15:05:36.34 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~rdbms.prompt,it=26,v=0]
+2015-10-29 15:05:36.34 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~rdbms.username,it=3,v=]
+2015-10-29 15:05:36.34 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~rdbms.pwd,it=32,v=]
+2015-10-29 15:05:36.34 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~query.0.1,it=3,v=SELECT grp.state_cd state,grp.role_id roleId,role.role_name roleName, CONCAT(CONCAT (CONCAT ('MAC ', role.role_name),DECODE (grp.role_id, '4', ' ', 's ')),grp.state_cd) groupName FROM mcp_um_apn_grp_role_rfrnc grp, mcp_um_role_rfrnc role
+ WHERE grp.role_id = role.role_id AND grp.state_cd IS NOT NULL]
+2015-10-29 15:05:36.341 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: InternalForm.docId
+2015-10-29 15:05:36.341 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=OverrideUrl,it=3,v=]
+2015-10-29 15:05:36.341 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=OverrideUsername,it=3,v=]
+2015-10-29 15:05:36.341 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=OverridePassword,it=3,v=]
+2015-10-29 15:05:36.341 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=OverrideDatasource,it=3,v=]
+2015-10-29 15:05:36.341 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=PauseOnError,it=26,v=1]
+2015-10-29 15:05:36.341 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=jdbc_error_flag,it=26,v=0]
+2015-10-29 15:05:36.341 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=jdbc_error_string,it=3,v=]
+2015-10-29 15:05:36.342 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~1<STATE,it=103,v=<null>]
+2015-10-29 15:05:36.342 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~1<ROLEID,it=102,v=<null>]
+2015-10-29 15:05:36.342 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~1<ROLENAME,it=103,v=<null>]
+2015-10-29 15:05:36.342 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=~1<GROUPNAME,it=103,v=<null>]
+2015-10-29 15:05:36.342 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ActivityClassParameter[name=groups,it=101,v=<null>]
+2015-10-29 15:05:36.342 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=groupIdInsertScript,it=103,v={}]
+2015-10-29 15:05:36.342 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=groupNames,it=103,v={}]
+2015-10-29 15:05:36.342 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=roleNames,it=103,v={}]
+2015-10-29 15:05:36.342 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=roleIds,it=102,v={}]
+2015-10-29 15:05:36.343 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: ProcessVariable[name=stateCodes,it=103,v={}]
+2015-10-29 15:05:36.343 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: com.appiancorp.suiteapi.process.ProcessRoleMap@4c00a9cb[
+  Role[name=ADMIN_OWNER,usernames=[iaich]]
+  Role[name=EDITOR]
+  Role[name=EXPLICIT_NONMEMBER]
+  Role[name=VIEWER]
+  Role[name=MANAGER]
+  Role[name=INITIATOR]
+]
+2015-10-29 15:05:36.343 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: Role[name=ADMIN_OWNER,usernames=[iaich]]
+2015-10-29 15:05:36.344 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: Role[name=EDITOR]
+2015-10-29 15:05:36.344 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: Role[name=EXPLICIT_NONMEMBER]
+2015-10-29 15:05:36.344 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: Role[name=VIEWER]
+2015-10-29 15:05:36.344 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: Role[name=MANAGER]
+2015-10-29 15:05:36.344 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Processing reference: Role[name=INITIATOR]
+2015-10-29 15:05:36.344 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Exporting binary resources.
+2015-10-29 15:05:36.344 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Serializing object to XML.
+2015-10-29 15:05:36.353 DEBUG processModel 8212 0004dbe1-e8cc-8000-f92f-7f0000014e7a Object transported.
